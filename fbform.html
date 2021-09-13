@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+
+	<style>
+
+	    body{
+                margin: 0;
+	    }
+
+		.container{
+             
+            border: 5px solid darkgrey;
+			margin: auto;
+			height: 500px;
+			background-color: yellowgreen;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+           
+ 
+		}
+	</style>
+</head>
+<body>
+
+    <div class="container">
+	                         <h1>FORM</h1>
+
+	    <div>
+	    	 <form autocomplete="on" action="form.html">
+      	
+      	<label for="yname">ENTER NAME:</label>
+      	<input type="text" name="name" id="yname" placeholder="Enter your name" required><br><br>
+
+        <label for="surname">ENTER SURNAME:</label>
+      	<input type="text" name="surname" id="surname" placeholder="Enter your surname" autofocus><br><br>
+
+        <label for="email">ENTER E-MAIL:</label>
+      	<input type="email" name="e-mail" id="email" placeholder="Enter your E-MAIL" autocomplete="on"><br><br>
+
+      
+
+      	<button type="reset">RESET</button>
+      	<input type="submit" name="submit" value="SUBMIT" formaction="form.html">
+
+      </form>
+	    </div>		
+	</div>
+
+
+
+</body>
+</html>
